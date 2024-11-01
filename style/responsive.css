@@ -1,0 +1,8 @@
+@media (width >= 80em) {
+  #container {
+    --max-width: 80em;
+  }
+}
+
+@media (48em < width < 64em) {
+}

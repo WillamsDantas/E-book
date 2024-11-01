@@ -1,0 +1,28 @@
+.cards {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    height: 200px;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgba(194, 194, 194, 0.2);
+    backdrop-filter: blur(11px);
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    background: linear-gradient(90deg, #f3d400, #de7900);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
