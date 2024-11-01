@@ -7,8 +7,9 @@
     }
 
     p {
+      font-size: 1rem;
       padding-block: 2rem;
-      text-align: justify;
+      text-align: center;
       line-height: 1.75;
     }
 
