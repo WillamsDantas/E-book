@@ -10,9 +10,9 @@
     align-items: center;
     justify-content: center;
     gap: 1.25rem;
-    height: 200px;
+    height: 250px;
     line-height: 1.5;
-    font-size: 0.875rem;
+    font-size: 1rem;
     padding: 1rem;
     border-radius: 5px;
     background-color: rgba(194, 194, 194, 0.2);
@@ -20,7 +20,7 @@
   }
 
   h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     background: linear-gradient(90deg, #f3d400, #de7900);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
