@@ -43,11 +43,36 @@
     color: black;
     font-size: 2.5rem;
     font-weight: bold;
-   
   }
 
   img {
     width: 70%;
-   margin-block: 1rem;
+    margin-block: 1rem;
+  }
+}
+
+.planilha-1 {
+  /* padding: 1rem; */
+  border-radius: 5px;
+  margin-block: 1.5rem;
+  /* background-color: white; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-block: 1rem;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 5px;
+    height: 500px;
+    object-fit: cover;
+    margin-block: 1rem;
   }
 }
